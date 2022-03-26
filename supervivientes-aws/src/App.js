@@ -12,7 +12,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <button onClick={() => { call() }}>response</button>
+        <button onClick={() => {console.log("hola mundo")}}>response</button>
         <a
           className="App-link"
           href="https://reactjs.org"
