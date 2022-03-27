@@ -7,8 +7,8 @@ function Home() {
     return (
         <div>
             <Navbar />
-            <Calltoaction />
             <Card />
+            <Calltoaction />
         </div>
     )
     
