@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import Home from './component/Home';
 import Contact from './component/Contact';
 import Aboutproject from './component/Aboutproject';
-
+import Dondecomer from './component/Dondecomer';
 import {
   BrowserRouter,
   Routes,
@@ -21,6 +21,7 @@ ReactDOM.render(
       <Route path="Home" element={<Home />} />
       <Route path="About" element={<Aboutproject />} />
       <Route path="Contact" element={<Contact />} />
+      <Route path="comer" element={<Dondecomer />} />
 
     </Routes>
 
