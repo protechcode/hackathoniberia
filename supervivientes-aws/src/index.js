@@ -4,6 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Home from './component/Home';
+import Contact from './component/Contact';
+import Aboutproject from './component/Aboutproject';
+
 import {
   BrowserRouter,
   Routes,
@@ -12,11 +15,17 @@ import {
 
 ReactDOM.render(
   <BrowserRouter>
+
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="Home" element={<Home />} />
-      
+      <Route path="About" element={<Aboutproject />} />
+      <Route path="Contact" element={<Contact />} />
+
     </Routes>
+
+
+
   </BrowserRouter>,
   document.getElementById('root')
 );
