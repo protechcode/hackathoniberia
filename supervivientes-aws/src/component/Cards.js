@@ -1,4 +1,8 @@
 import React from "react";
+import Dondecomer from "./Dondecomer";
+import Dondedormir from "./Dondedormir";
+import Dondeducharse from "./Dondeducharse";
+import { Link } from "react-router-dom";
 
 function Card() {
     return (
@@ -10,7 +14,7 @@ function Card() {
                 Accede a cada sección para ver dónde está cada lugar y reserva tu plaza.
             </p>
 
-            <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
+            <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-3" onClick={()=>{console.log("click")}}>
                 <div class="p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl">
                     <span class="inline-block text-blue-500 dark:text-blue-400">
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -19,7 +23,7 @@ function Card() {
                         </svg>
                     </span>
 
-                    <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Sleep</h1>
+                    <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Dormir</h1>
 
                     <p class="text-gray-500 dark:text-gray-300">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
@@ -39,7 +43,7 @@ function Card() {
                         </svg>
                     </span>
 
-                    <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Shower</h1>
+                    <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Ducharse</h1>
 
                     <p class="text-gray-500 dark:text-gray-300">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
@@ -59,7 +63,7 @@ function Card() {
                         </svg>
                     </span>
 
-                    <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Eat</h1>
+                    <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Comer</h1>
 
                     <p class="text-gray-500 dark:text-gray-300">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet

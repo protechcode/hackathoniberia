@@ -24,6 +24,9 @@ function Navbar() {
                         <a href="/Home" class="px-2 py-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded dark:text-gray-200 hover:bg-gray-900 hover:text-gray-100 md:mx-2">Portal</a>
                         <a href="/About" class="px-2 py-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded dark:text-gray-200 hover:bg-gray-900 hover:text-gray-100 md:mx-2">Sobre el Proyecto</a>
                         <a href="/Contact" class="px-2 py-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded dark:text-gray-200 hover:bg-gray-900 hover:text-gray-100 md:mx-2">Contacto</a>
+                        <a href="https://w33.bcn.cat/planolBCN/es/guia/zoom/2/position/430290,4583088/" class="px-2 py-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded dark:text-gray-200 hover:bg-gray-900 hover:text-gray-100 md:mx-2">Mapa Metro</a>
+
+
                     </div>
 
                     <div class="relative">
