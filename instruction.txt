@@ -1,4 +1,0 @@
-1) Create backend app
-2) Enable CORS
-3) Connect with db
-4) Upload data

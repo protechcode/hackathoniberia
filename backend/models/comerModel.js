@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const Comer = mongoose.Schema({
+const Comedore = mongoose.Schema({
     name:String,
     tel:String,
     addr:String,
@@ -9,4 +9,4 @@ const Comer = mongoose.Schema({
     access:String,
     hours:String,
 })
-module.exports= mongoose.model("Comer", Comer);
+module.exports= mongoose.model("Comedore", Comedore);
