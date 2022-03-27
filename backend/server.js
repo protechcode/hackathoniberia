@@ -2,6 +2,7 @@ const express =require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');
 const configFile = require('./config')
+const comerRoutes = require('./routes/comerRoutes');
 
 const connection = configFile.dburi;
 
@@ -11,6 +12,7 @@ mongoose
 .then(() => {
     const app = express();
     app.use(cors());
+    app.use("/api", comerRoutes) // new
     
 
     const port = process.env.PORT || 5000;
