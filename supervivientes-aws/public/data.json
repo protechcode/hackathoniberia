@@ -1,0 +1,30 @@
+[{
+    "data":{
+        "Menjador Social Navas ":{
+            "tel":"93 351 72 20",
+            "addr":"Av. Meridiana, 238-240",
+            "metro":"Navas L1",
+            "bus":"62, 192, H8, V27",
+            "cat":{
+                "horari":"De dilluns a diumenge de 12 a 14 h. Festius també.",
+                "altres-acts":"Orientació laboral i tràmits varis",
+                "access":"derivat pels Serveis Socials. Accés directe tres vegades a l'any."
+            }
+
+        },
+        "Menjador Social Paral-lel  ":{
+            "tel":"93 441 62 12",
+            "addr":"Av. Paral·lel, 97 bis",
+            "metro":"Paral-lel",
+            "bus":"88, D20, V11, H14, H16 ",
+            "cat":{
+                "horari":"De dilluns a diumenge de 12 a 14 h. Festius també.",
+                "altres-acts":"Orientació laboral i tràmits varis",
+                "access":"derivat pels Serveis Socials. Accés directe tres vegades a l'any."
+            }
+
+        }
+        
+
+    }
+}]
