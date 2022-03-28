@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import Calltoaction from "./Calltoaction";
 import Card from "./Cards";
+import Footer from "./footer";
 
 function Home() {
     return (
@@ -9,6 +10,7 @@ function Home() {
             <Navbar />
             <Card />
             <Calltoaction />
+            <Footer />
         </div>
     )
     

@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import Cristian from '../cristian.jpeg';
 import Mario from '../Mario.jpg'
 import Linkedin from '../../src/linkedin.svg'
+import Footer from "./footer";
 
 function Contact() {
     return (
@@ -71,7 +72,7 @@ function Contact() {
                     </div>
                 </div>
             </section>
-
+        <Footer />
         </div>)
 }
 export default Contact;

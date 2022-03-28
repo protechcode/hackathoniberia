@@ -6,11 +6,16 @@ import reportWebVitals from './reportWebVitals';
 import Home from './component/Home';
 import Contact from './component/Contact';
 import Aboutproject from './component/Aboutproject';
+import Dondecomer from './component/Dondecomer';
+import Dondedormir from './component/Dondedormir';
+import Dondeducharse from './component/Dondeducharse';
+
 
 import {
   BrowserRouter,
   Routes,
   Route,
+  Navigate
 } from "react-router-dom";
 
 ReactDOM.render(
@@ -21,6 +26,13 @@ ReactDOM.render(
       <Route path="Home" element={<Home />} />
       <Route path="About" element={<Aboutproject />} />
       <Route path="Contact" element={<Contact />} />
+      <Route path="comer" element={<Dondecomer />} />
+      <Route path="dormir" element={<Dondedormir />} />
+      <Route path="duchas" element={<Dondeducharse />} />
+      <Route
+        path="*"
+        element={<Navigate to="/" replace />}
+    />
 
     </Routes>
 

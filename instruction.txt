@@ -1,1 +1,9 @@
-1) 
+{
+    "name": "Centre de Dia Horta",
+    "hours": "mon-sat 08h-10.30h",
+    "access": "For +18 years of age, Must call before arrival to reserve a spot",
+    "addr": "Camí de l’Església, 1-3 ",
+    "metro":"Horta (L5) ",
+    "bus": "102, 185, V23, V25, N4",
+    "tel": "93 428 71 81"
+}
